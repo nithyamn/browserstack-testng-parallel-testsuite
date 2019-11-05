@@ -37,3 +37,4 @@ Master branch contains **Selenium 3** samples, for **Selenium 4 - W3C protocol**
 * [Browsers & mobile devices for selenium testing on BrowserStack](https://www.browserstack.com/list-of-browsers-and-platforms?product=automate)
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
 # testng-browserstack1
+# testng-bs
