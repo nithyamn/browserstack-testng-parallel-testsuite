@@ -38,3 +38,4 @@ Master branch contains **Selenium 3** samples, for **Selenium 4 - W3C protocol**
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
 # testng-browserstack1
 # testng-bs
+# testng
