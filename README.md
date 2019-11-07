@@ -40,3 +40,4 @@ Master branch contains **Selenium 3** samples, for **Selenium 4 - W3C protocol**
 # testng-bs
 # testng
 # testng
+# Travis
