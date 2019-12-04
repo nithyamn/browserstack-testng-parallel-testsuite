@@ -1,7 +1,7 @@
 {
   "server": "hub-cloud.browserstack.com",
-  "user": "nithyamani3",
-  "key": "P4JKysg5WuchQxBfKQu1",
+  "user": "BROWSERSTACK_USERNAME",
+  "key": "BROWSERSTACK_ACCESS_KEY",
 
   "capabilities": {
     "build": "testng-browserstack",
@@ -18,7 +18,9 @@
     },
     "safari": {
       "os": "OS X",
-      "browser": "safari"
+      "os_version": "Mojave",
+      "browser": "safari",
+      "browser_version": "12.1"
     },
     "ie": {
       "browser": "internet explorer"
