@@ -12,9 +12,10 @@
 
   "environments": {
     "chrome": {
-      "os_version":"11",
-      "device": "iPhone 8 Plus",
-      "real_mobile": "true"
+      "os": "Windows",
+      "os_version":"10",
+      "browser": "Chrome",
+      "browser_version": "75.0"
     }
   }
 }
