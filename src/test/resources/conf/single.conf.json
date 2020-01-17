@@ -7,14 +7,17 @@
     "build": "testng-browserstack",
     "name": "single_test",
     "browserstack.debug": true,
-    "browserstack.networkLogs": true
+    "browserstack.networkLogs": true,
+    "browserstack.console":"errors",
+    "browserstack.geoLocation": "GB"
   },
 
   "environments": {
     "chrome": {
-      "os_version":"11",
-      "device": "iPhone 8 Plus",
-      "real_mobile": "true"
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "Chrome",
+      "browser_version": "75.0"
     }
   }
 }

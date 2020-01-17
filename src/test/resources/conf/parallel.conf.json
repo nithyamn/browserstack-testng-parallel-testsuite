@@ -11,17 +11,29 @@
 
   "environments": {
     "chrome": {
-      "browser": "chrome"
+      "os_version": "13",
+      "device": "iPhone XS",
+      "real_mobile": true
     },
     "firefox": {
-      "browser": "firefox"
+      "os_version": "13",
+      "device": "iPhone XS",
+      "real_mobile": true
     },
     "safari": {
-      "os": "OS X",
-      "browser": "safari"
+      "os_version": "13",
+      "device": "iPhone XS",
+      "real_mobile": true
     },
     "ie": {
-      "browser": "internet explorer"
+      "os_version": "13",
+      "device": "iPhone XS",
+      "real_mobile": true
+    },
+    "iphone": {
+      "os_version": "13",
+      "device": "iPhone XS",
+      "real_mobile": true
     }
   }
 }
