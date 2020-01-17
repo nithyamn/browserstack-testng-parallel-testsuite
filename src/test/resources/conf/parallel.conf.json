@@ -1,12 +1,14 @@
 {
   "server": "hub-cloud.browserstack.com",
-  "user": "nithyamani3",
-  "key": "P4JKysg5WuchQxBfKQu1",
+  "user": "BROWSERSTACK_USERNAME",
+  "key": "BROWSERSTACK_ACCESS_KEY",
 
   "capabilities": {
     "build": "testng-browserstack",
     "name": "parallel_test",
-    "browserstack.debug": true
+    "browserstack.debug": true,
+    "browserstack.networkLogs": true,
+    "browserstack.console":"errors"
   },
 
   "environments": {
@@ -21,9 +23,16 @@
       "real_mobile": true
     },
     "safari": {
+<<<<<<< HEAD
       "os_version": "13",
       "device": "iPhone XS",
       "real_mobile": true
+=======
+      "os": "OS X",
+      "os_version": "Mojave",
+      "browser": "safari",
+      "browser_version": "12.1"
+>>>>>>> 5fe6bd75a447d5bb5c0cdb1546674b2653cc82be
     },
     "ie": {
       "os_version": "13",
