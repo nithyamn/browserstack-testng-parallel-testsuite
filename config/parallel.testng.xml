@@ -32,11 +32,4 @@
             <class name="com.browserstack.SingleTest"/>
         </classes>
     </test>
-    <test name="SingleTestIphone">
-        <parameter name="config" value="parallel.conf.json"/>
-        <parameter name="environment" value="iphone"/>
-        <classes>
-            <class name="com.browserstack.SingleTest"/>
-        </classes>
-    </test>
 </suite>

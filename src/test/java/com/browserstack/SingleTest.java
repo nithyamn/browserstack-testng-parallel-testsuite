@@ -18,12 +18,12 @@ public class SingleTest extends BrowserStackTestNGTest{
 
     @Test
     public void test() throws Exception {
-        driver.get("https://www.amazon.com/");
-        WebElement element = driver.findElement(By.id("twotabsearchtextbox"));
-
-        element.sendKeys("iphone 11 plus");
+        driver.get("https://www.google.com/ncr");
+        WebElement element = driver.findElement(By.name("q"));
+        element.sendKeys("BrowserStack");
         element.submit();
         Thread.sleep(5000);
+
         //REST API
         String title = driver.getTitle();
 
@@ -32,9 +32,6 @@ public class SingleTest extends BrowserStackTestNGTest{
             TestStatus.mark(session,"passed");
         else
             TestStatus.mark(session,"failed");
-        /*driver.get("https://dashboard.development.pendata-dev.dwpcloud.uk/rp/opp-aow?spncspo");
-        Thread.sleep(5000);
-        driver.quit();*/
     }
 }
 

@@ -8,22 +8,14 @@
     "name": "single_test",
     "browserstack.debug": true,
     "browserstack.networkLogs": true,
-<<<<<<< HEAD
-    "browserstack.console":"errors",
-    "browserstack.geoLocation": "GB"
-=======
     "browserstack.console":"errors"
->>>>>>> 5fe6bd75a447d5bb5c0cdb1546674b2653cc82be
   },
 
   "environments": {
     "chrome": {
       "os": "Windows",
-<<<<<<< HEAD
       "os_version": "10",
-=======
       "os_version":"10",
->>>>>>> 5fe6bd75a447d5bb5c0cdb1546674b2653cc82be
       "browser": "Chrome",
       "browser_version": "75.0"
     }

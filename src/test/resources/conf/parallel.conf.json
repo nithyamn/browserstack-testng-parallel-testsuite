@@ -13,36 +13,19 @@
 
   "environments": {
     "chrome": {
-      "os_version": "13",
-      "device": "iPhone XS",
-      "real_mobile": true
+      "browser": "chrome"
     },
     "firefox": {
-      "os_version": "13",
-      "device": "iPhone XS",
-      "real_mobile": true
+      "browser": "firefox"
     },
     "safari": {
-<<<<<<< HEAD
-      "os_version": "13",
-      "device": "iPhone XS",
-      "real_mobile": true
-=======
       "os": "OS X",
       "os_version": "Mojave",
       "browser": "safari",
-      "browser_version": "12.1"
->>>>>>> 5fe6bd75a447d5bb5c0cdb1546674b2653cc82be
+      "browser_version": "12.0"
     },
     "ie": {
-      "os_version": "13",
-      "device": "iPhone XS",
-      "real_mobile": true
-    },
-    "iphone": {
-      "os_version": "13",
-      "device": "iPhone XS",
-      "real_mobile": true
+      "browser": "internet explorer"
     }
   }
 }
