@@ -36,13 +36,8 @@ Master branch contains **Selenium 3** samples, for **Selenium 4 - W3C protocol**
 * [Browsers & mobile devices for selenium testing on BrowserStack](https://www.browserstack.com/list-of-browsers-and-platforms?product=automate)
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
 
-<<<<<<< HEAD
 
 ## Run Test Suites (XML files) in parallel - Steps:
 * Add profile in pom.xml add all the xml files to br run in parallel configured with 'suitethreadpoolsize' tag and number of testsuites to be launched in parallel.
 * Note: If BrowserStack runner file (BrowserStackTestNGTest.java) and json files are not being used, then all the parameters i.e. BrowserStack Credentials (username and accesskey), RemoteWebDriver along with BrowserStack's hub URL and capabilities has to be specified in each test file so that the tests gets launched on BrowserStack.
-=======
-## Run Test Suites (XML files) in parallel - Steps:
-* Add profile in pom.xml add all the xml files to be run in parallel configured with 'suitethreadpoolsize' tag and number of testsuites to be launched in parallel.
-* Note: If BrowserStack runner file (BrowserStackTestNGTest.java) and json files are not being used, then all the parameters i.e. BrowserStack Credentials (username and accesskey), RemoteWebDriver along with BrowserStack's hub URL and capabilities has to be specified in each test file so that the tests gets launched on BrowserStack.
->>>>>>> 92519a9549bab4370b8d3edf7eddb12a73d29aef
+
