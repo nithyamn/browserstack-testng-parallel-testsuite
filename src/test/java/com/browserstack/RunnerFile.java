@@ -21,8 +21,8 @@ import org.testng.annotations.BeforeMethod;
 public class RunnerFile {
     public WebDriver driver;
     private Local l;
-    public static final String USERNAME = "nithyamani3";
-    public static final String AUTOMATE_KEY = "P4JKysg5WuchQxBfKQu1";
+    public static final String USERNAME = "<BROWSERSTACK_USERNAME>";
+    public static final String AUTOMATE_KEY = "<BROWSERSTACK_ACCESS_KEY>";
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
     @BeforeMethod(alwaysRun = true)
