@@ -39,5 +39,5 @@ Master branch contains **Selenium 3** samples, for **Selenium 4 - W3C protocol**
 
 ## Run Test Suites (XML files) in parallel - Steps:
 * Add profile in pom.xml add all the xml files to br run in parallel configured with 'suitethreadpoolsize' tag and number of testsuites to be launched in parallel.
-* Note: If BrowserStack runner file (BrowserStackTestNGTest.java) and json files are not being used, then all the parameters i.e. BrowserStack Credentials (username and accesskey), RemoteWebDriver along with BrowserStack's hub URL and capabilities has to be specified in each test file so that the tests gets launched on BrowserStack.
+* Note: This can be achieved by having a single Runner file(which has the driver initiation) or having the capabilities definied in each test file.
 
