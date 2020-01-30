@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Parallel">
+<suite name="Parallel" thread-count="1">
     <test name="SampleTestSuite1-Test1">
         <classes>
             <class name="com.browserstack.Sample1"/>
