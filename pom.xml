@@ -157,6 +157,30 @@
             </build>
         </profile>
 
+        <profile>
+            <id>sample</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <file>config/sample1.testng.xml</file>
+                                <file>config/sample2.testng.xml</file>
+                            </suiteXmlFiles>
+                            <properties>
+                                <property>
+                                    <name>suitethreadpoolsize</name>
+                                    <value>2</value>
+                                </property>
+                            </properties>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
     </profiles>
 
 </project>

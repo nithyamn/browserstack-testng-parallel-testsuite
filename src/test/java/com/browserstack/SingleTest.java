@@ -18,20 +18,20 @@ public class SingleTest extends BrowserStackTestNGTest{
 
     @Test
     public void test() throws Exception {
-        driver.get("https://www.google.com/ncr");
-        WebElement element = driver.findElement(By.name("q"));
+        driver.get("https://www.flipkart.com/");
+        /*WebElement element = driver.findElement(By.name("q"));
         element.sendKeys("BrowserStack");
-        element.submit();
-        Thread.sleep(5000);
+        element.submit();*/
+        Thread.sleep(10000);
 
         //REST API
-        String title = driver.getTitle();
+        /*String title = driver.getTitle();
 
         SessionId session = ((RemoteWebDriver) driver).getSessionId();
-        if(title.equals("BrowserStack - Google Search"))
+        if(title.equals("BrowserStack - Google Search 1"))
             TestStatus.mark(session,"passed");
         else
-            TestStatus.mark(session,"failed");
+            TestStatus.mark(session,"failed");*/
     }
 }
 

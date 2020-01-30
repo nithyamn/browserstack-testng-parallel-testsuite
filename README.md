@@ -42,3 +42,4 @@ Master branch contains **Selenium 3** samples, for **Selenium 4 - W3C protocol**
 # testng
 # Travis
 # BS_TestNG
+# browserstack-testng-parallel-testsuite
