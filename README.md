@@ -1,4 +1,4 @@
-# testng-browserstack
+# testng-browserstack-parallel-testsuites
 
 [TestNG](http://testng.org) Integration with BrowserStack.
 
