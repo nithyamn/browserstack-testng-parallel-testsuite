@@ -17,7 +17,6 @@ Master branch contains **Selenium 3** samples, for **Selenium 4 - W3C protocol**
 - To run a single test, run `mvn test -P single`
 - To run local tests, run `mvn test -P local`
 - To run parallel tests, run `mvn test -P parallel`
-- To run the test suite, run `mvn test -P suite`
 
  Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)
 
@@ -36,10 +35,8 @@ Master branch contains **Selenium 3** samples, for **Selenium 4 - W3C protocol**
 * [Customizing your tests on BrowserStack](https://www.browserstack.com/automate/capabilities)
 * [Browsers & mobile devices for selenium testing on BrowserStack](https://www.browserstack.com/list-of-browsers-and-platforms?product=automate)
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
-# testng-browserstack1
-# testng-bs
-# testng
-# testng
-# Travis
-# BS_TestNG
-# browserstack-testng-parallel-testsuite
+
+
+## Run Test Suites (XML files) in parallel - Steps:
+* Add profile in pom.xml add all the xml files to br run in parallel configured with 'suitethreadpoolsize' tag and number of testsuites to be launched in parallel.
+* Note: If BrowserStack runner file (BrowserStackTestNGTest.java) and json files are not being used, then all the parameters i.e. BrowserStack Credentials (username and accesskey), RemoteWebDriver along with BrowserStack's hub URL and capabilities has to be specified in each test file so that the tests gets launched on BrowserStack.
